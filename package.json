@@ -5,7 +5,7 @@
   "main": "index.js",
   "build": "node index.js",
   "scripts": {
-    "start": "npm -i forever && forever start index.js && echo gkooe-server-started__ &exit&exit",
+    "start": "sudo npm install forever -g && forever start index.js && echo gkooe-server-started__ &exit&exit",
     "stop": "forever stop index.js && echo gkooe-server-end-session__  &exit&exit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node index.js"
